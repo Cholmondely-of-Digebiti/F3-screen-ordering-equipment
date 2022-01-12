@@ -1,0 +1,432 @@
+{
+// equipment-overrides.plist for F3 Screen Sorting -- Nite Owl v1.0
+// General ---------------------------------------------------------------------------------------------------------------------
+	"EQ_FUEL"									= {sort_order = 100;};
+	"EQ_CARGO_BAY"								= {sort_order = 101;};
+	"EQ_CARGO_BAY_REMOVAL"						= {sort_order = 102;};
+	"EQ_DOCK_COMP"								= {sort_order = 103;};
+	"EQ_DOCK_COMP_REMOVAL"						= {sort_order = 104;};
+	"EQ_FUEL_SCOOPS"							= {sort_order = 105;};
+	"EQ_FUEL_SCOOPS_REMOVAL"					= {sort_order = 106;};
+	"EQ_ESCAPE_POD"								= {sort_order = 107;};
+	"EQ_ESCAPE_POD_REMOVAL"						= {sort_order = 108;};
+	"EQ_FUEL_INJECTION"							= {sort_order = 109;};
+	"EQ_FUEL_INJECTION_REMOVAL"					= {sort_order = 110;};
+	"EQ_ADVANCED_COMPASS"						= {sort_order = 120;};
+	"EQ_ADVANCED_COMPASS_REMOVAL"				= {sort_order = 121;};
+	"EQ_HEAT_SHIELD"							= {sort_order = 122;};
+	"EQ_HEAT_SHIELD_REMOVAL"					= {sort_order = 123;};
+	"EQ_MAINTENANCE_TUNEUP"						= {sort_order = 124;};
+	"EQ_RENOVATION"								= {sort_order = 125;};
+	"EQ_HUDSELECTOR"							= {sort_order = 126;};
+	"EQ_HUDSELECTOR_REMOVE"						= {sort_order = 127;};
+	"EQ_SHIP_RESPRAY"							= {sort_order = 128;};
+	"EQ_TORUSTOSUN"								= {sort_order = 129;};
+	"EQ_UNDOCUMENTED_LAUNCH"					= {sort_order = 130;};
+	"EQ_WELCOME_MAT"							= {sort_order = 131;};
+	
+//Forward, Aft, Starboard, and Port Weapons ------------------------------------------------------------------------------------
+	
+	//General
+	"EQ_WEAPON_NONE"							= {sort_order = 140;};
+	"EQ_LASER_COUPLER"							= {sort_order = 141;};
+	"EQ_LASER_STABILISER"						= {sort_order = 142;};
+	
+	//Mining
+	"EQ_WEAPON_MINING_LASER"					= {sort_order = 143;};
+	"EQ_WEAPON_JKMINING_LASER"					= {sort_order = 144;};
+	
+	//Pulse
+	"EQ_WEAPON_PULSE_LASER"						= {sort_order = 145;};
+	"EQ_WEAPON_EPULSE_LASER"					= {sort_order = 146;};
+	"EQ_WEAPON_BLAST_LASER"						= {sort_order = 147;};
+	"EQ_WEAPON_DUAL_LASER"						= {sort_order = 148;};
+	"EQ_WEAPON_HVARISCAN_LASER"					= {sort_order = 149;};
+	"EQ_WEAPON_VARISCAN_LASER"					= {sort_order = 150;};
+	
+	//Beam
+	"EQ_WEAPON_BEAM_LASER"						= {sort_order = 160;};
+	"EQ_WEAPON_EBEAM_LASER"						= {sort_order = 161;};
+	"EQ_WEAPON_BURST_LASER"						= {sort_order = 162;};
+	"EQ_WEAPON_ASSAULT_LASER"					= {sort_order = 163;};
+	"EQ_WEAPON_HIRAD_LASER"						= {sort_order = 164;};
+	"EQ_WEAPON_STAR_LASER"						= {sort_order = 165;};
+	
+	//Military
+	"EQ_WEAPON_MILITARY_LASER"					= {sort_order = 166;};
+	"EQ_WEAPON_EMILITARY_LASER"					= {sort_order = 167;};
+	"EQ_WEAPON_ECO_LASER"						= {sort_order = 168;};
+	
+	//Uber
+	"EQ_WEAPON_FRONTIER_LASER"					= {sort_order = 180;};
+	"EQ_WEAPON_WILLIAMS_LASER"					= {sort_order = 181;};
+	"EQ_WEAPON_ZEUSCORP_LASER"					= {sort_order = 182;};
+	"EQ_WEAPON_LUCAS_LASER"						= {sort_order = 183;};
+	"EQ_WEAPON_QVC_LASER"						= {sort_order = 184;};
+	"EQ_WEAPON_DEXM_LASER"						= {sort_order = 185;};
+	"EQ_WEAPON_ANDERSON_LASER"					= {sort_order = 186;};
+	"EQ_WEAPON_RIMMERACE_LASER"					= {sort_order = 187;};
+
+	//Cannons and Artillery
+	"EQ_WEAPON_CANNON_ECO"						= {sort_order = 188;};
+	"EQ_WEAPON_CANNON_EA"						= {sort_order = 189;};
+	
+	//Other 
+	"EQ_WEAPON_ECO_REACTOR"						= {sort_order = 190;};
+	
+//Pylon Mounted ----------------------------------------------------------------------------------------------------------------
+	
+	//General
+	"EQ_MISSILE_REMOVAL"						= {sort_order = 200;};
+	"EQ_IND_MISSILE_REMOVAL"					= {sort_order = 201;};
+	
+	//Explosive Missiles
+	"EQ_MISSILE" 								= {sort_order = 202;};		
+	"EQ_HARDENED_MISSILE"						= {sort_order = 203;};
+	"EQ_KW_JIDA_MISSILE"						= {sort_order = 204;};
+	"EQ_ADCK_DESTROYER_MISSILE"					= {sort_order = 205;};
+	"EQ_ARMOURY_FIELD_MISSILE"					= {sort_order = 206;};
+	"EQ_IRACK_3_MISSILE"						= {sort_order = 207;};
+	"EQ_NRACK_3_MISSILE"						= {sort_order = 208;};
+	"EQ_HRACK_3_MISSILE"						= {sort_order = 209;};
+	"EQ_AQUATICS_TRIDENT_MISSILE"				= {sort_order = 210;};
+	"EQ_AQUATICS_1_TRIDENT_MISSILE"				= {sort_order = 211;};
+	"EQ_NEXUS_BASIC_MISSILE"					= {sort_order = 212;};
+	"EQ_NEXUS_PREMIUM_MISSILE"					= {sort_order = 213;};
+	"EQ_NEXUS_ULTIMATE_MISSILE"					= {sort_order = 214;};
+	"EQ_NEXUS_BUG_MISSILE"						= {sort_order = 215;};
+	"EQ_NEXUS_BUG_R_MISSILE"					= {sort_order = 216;};
+	
+	//Specialty Missiles
+	"EQ_ARMOURY_TRACKER_MISSILE"				= {sort_order = 230;};
+	"EQ_ARMOURY_KICKER_MISSILE"					= {sort_order = 231;};
+	"EQ_ARMOURY_CUTPURSE_MISSILE"				= {sort_order = 232;};
+	"EQ_ARMOURY_DISPLACER_MISSILE"				= {sort_order = 233;};
+	"EQ_PROBE_LAUNCHER_MINE"					= {sort_order = 234;};
+	"EQ_SRACK_3_MISSILE"						= {sort_order = 235;};
+	"EQ_DREDGER_SALVAGE_MISSILE"				= {sort_order = 236;};
+	"EQ_DREDGERDROID_MISSILE"					= {sort_order = 237;};
+	
+	//Explosive Mines
+	"EQ_QC_MINE"								= {sort_order = 240;};
+
+	//Specialty Mines
+	"EQ_ARMOURY_DECOY_MINE"						= {sort_order = 250;};
+	"EQ_ARMOURY_INTERDICTOR_MINE"				= {sort_order = 251;};
+	"EQ_ARMOURY_SCREAMER_MINE"					= {sort_order = 252;};
+	"EQ_ARMOURY_VOID_MINE"						= {sort_order = 253;};
+	"EQ_ARMOURY_BUZZBOMB_MINE"					= {sort_order = 254;};
+	"EQ_ARMOURY_BUGBOMB_MINE"					= {sort_order = 255;};
+	"EQ_ARMOURY_STUNBOMB_MINE"					= {sort_order = 256;};
+	"EQ_ARMOURY_UNIBOMB_MINE"					= {sort_order = 257;};
+	"EQ_ATDRONE_LAUNCHER_MINE"					= {sort_order = 258;};
+	"EQ_CARGO_SHEPHERD_MINE"					= {sort_order = 259;};
+	"EQ_AQUATICS_JAMMER_MINE"					= {sort_order = 260;};
+	"EQ_AQUATICS_1_JAMMER_MINE"					= {sort_order = 261;};
+
+	//Missile Machine 
+	"EQ_ARMOURY_MISSILEMACHINE_MINE"			= {sort_order = 270;};
+	"EQ_ARMOURY_STANDARD_MISSILE"				= {sort_order = 271;};
+	"EQ_ARMOURY_HARD_MISSILE"					= {sort_order = 272;};
+	
+	//Pylon Mounted Drones 
+	"EQ_CT_DRONE_1"								= {sort_order = 273;};
+	"EQ_CT_DRONE_2"								= {sort_order = 274;};
+	"EQ_CT_DRONE_3"								= {sort_order = 275;};
+	"EQ_CT_DRONE_4"								= {sort_order = 276;};
+	"EQ_CT_MINE"								= {sort_order = 277;};
+	"EQ_CDRONE_LAUNCHER_MINE"					= {sort_order = 278;};
+	"EQ_KDRONE_LAUNCHER_MINE"					= {sort_order = 279;};
+
+	//Non Pylon Mounted Drones and Equipment
+	"EQ_CT_CONVERT"								= {sort_order = 280;};
+	"EQ_AQUATICS_GUARDIAN"						= {sort_order = 281;};
+	"EQ_AQUATICS_1_GUARDIAN"					= {sort_order = 282;};		
+
+// Advanced --------------------------------------------------------------------------------------------------------------------
+	"EQ_PASSENGER_BERTH"						= {sort_order = 290;};
+	"EQ_PASSENGER_BERTH_REMOVAL"				= {sort_order = 291;};
+	"EQ_PASSENGER_BERTH_TAXI"					= {sort_order = 292;};
+	"EQ_GAL_DRIVE"								= {sort_order = 293;};
+	"EQ_GAL_DRIVE_REMOVAL"						= {sort_order = 294;};
+	"EQ_MIL_INJECTION"							= {sort_order = 295;};
+	"EQ_WPH_ASC_UPGRADE"						= {sort_order = 296;};
+	"EQ_ADVANCED_NAVIGATIONAL_ARRAY"			= {sort_order = 297;};
+	"EQ_ADVANCED_NAVIGATIONAL_ARRAY_REMOVAL"	= {sort_order = 298;};
+	"EQ_ADV_NAV_COMP"							= {sort_order = 299;};
+	"EQ_WORMHOLE_SCANNER"						= {sort_order = 300;};
+	"EQ_WORMHOLE_SCANNER_REMOVAL"				= {sort_order = 310;};
+	"EQ_FRAME_BOUNTY_SCANNER"					= {sort_order = 311;};
+	"EQ_FRAME_BOUNTY_SCANNER_REMOVAL"			= {sort_order = 312;};
+	"EQ_CARGO_SCANNER"							= {sort_order = 313;};
+	"EQ_CARGO_SCANNER_REMOVER"					= {sort_order = 314;};
+	"EQ_CARGOSPOTTER"							= {sort_order = 315;};
+	"EQ_AVERNUS_TRACTOR_BEAM"					= {sort_order = 316;};
+	"EQ_HYPERCARGO"								= {sort_order = 317;};
+	"EQ_HYPERCARGO_HACK"						= {sort_order = 318;};
+	"EQ_ELECTRONIC_THUMB"						= {sort_order = 319;};
+	"EQ_IRONHIDE"								= {sort_order = 320;};
+	"EQ_IRONHIDE_MIL"							= {sort_order = 330;};
+	"EQ_IRONHIDE_REPAIR"						= {sort_order = 331;};
+	"EQ_MC_DESCRAMBLER"							= {sort_order = 332;};
+	"EQ_MC_DESCRAMBLER_REMOVAL"					= {sort_order = 333;};
+	"EQ_ORE_PROCESSOR"							= {sort_order = 334;};
+	"EQ_ORE_PROCESSOR_REMOVAL"					= {sort_order = 335;};
+	"EQ_ORE_SCANNER"							= {sort_order = 336;};
+	"EQ_HARDWIRE_ORE_PROCESSOR"					= {sort_order = 337;};
+	"EQ_UNDO_HARDWIRE_ORE_PROCESSOR"			= {sort_order = 338;};
+	"EQ_VACUUM_PUMP"							= {sort_order = 339;};
+	"EQ_PLANETFALL"								= {sort_order = 340;};
+	"EQ_TRACKER"								= {sort_order = 350;};
+	"EQ_TRAIL_DETECTOR"							= {sort_order = 351;};
+	"EQ_REMOVE_TRAIL_DETECTOR"					= {sort_order = 352;};
+	"EQ_TIANVE_STICKER"							= {sort_order = 353;};
+	
+	//L.M.S.S.
+	"EQ_LMSS_ACTIVATOR"							= {sort_order = 360;};
+	"EQ_LMSS_FRONT"								= {sort_order = 361;};
+	"EQ_LMSS_FRONT_REMOVAL"						= {sort_order = 362;};
+	"EQ_LMSS_AFT"								= {sort_order = 363;};
+	"EQ_LMSS_AFT_REMOVAL"						= {sort_order = 364;};
+	"EQ_LMSS_PORT"								= {sort_order = 365;};
+	"EQ_LMSS_PORT_REMOVAL"						= {sort_order = 366;};
+	"EQ_LMSS_STARBOARD"							= {sort_order = 367;};
+	"EQ_LMSS_STARBOARD_REMOVAL"					= {sort_order = 368;};
+	"EQ_LMSS_ACTUATOR"							= {sort_order = 369;};
+	"EQ_LMSS_ACTUATOR_REMOVAL"					= {sort_order = 370;};
+	
+	//Tractor Beam
+	"EQ_FULL_INSURANCE"							= {sort_order = 380;};
+	"EQ_LASERREDUCTOR"							= {sort_order = 381;};
+	"EQ_LASERREDUCTOR_REFUND"					= {sort_order = 382;};
+	"EQ_TOWBAR"									= {sort_order = 383;};
+	"EQ_TOWBAR_REFUND"							= {sort_order = 384;};
+	"EQ_TOWBARSTAB_MINE"						= {sort_order = 385;};
+	"EQ_TOWBARSTAB_MINE_REFUND"					= {sort_order = 386;};
+	"EQ_TOWBARREPAIRBOT"						= {sort_order = 387;};
+	"EQ_TOWBARREPAIRBOT_REFUND"					= {sort_order = 388;};
+	"EQ_TOWBARINJ"								= {sort_order = 389;};
+	"EQ_TOWBARINJ_REFUND"						= {sort_order = 390;};
+	"EQ_SHIPMINER"								= {sort_order = 391;};
+	"EQ_SHIPMINER_REFUND"						= {sort_order = 392;};
+	"EQ_SHIPMINERASSISTANT"						= {sort_order = 393;};
+	"EQ_SHIPMINERASSISTANT_REFUND"				= {sort_order = 394;};
+	"EQ_TUGDRONE_MISSILE"						= {sort_order = 395;};
+	"EQ_TUGDRONE_MISSILE_REFUND"				= {sort_order = 396;};
+	"EQ_LINKG7_GREATRIFT_AUTOJUMPER"			= {sort_order = 397;};
+	
+//Defensive --------------------------------------------------------------------------------------------------------------------
+	"EQ_ECM"									= {sort_order = 410;};
+	"EQ_ECM_REMOVAL"							= {sort_order = 411;};
+	"EQ_AMS"									= {sort_order = 412;};
+	"EQ_AMS_1"									= {sort_order = 413;};
+	"EQ_AMS_2"									= {sort_order = 414;};
+	"EQ_AMS_3"									= {sort_order = 415;};
+	"EQ_AMS_4"									= {sort_order = 416;};
+	"EQ_AMS_5"									= {sort_order = 417;};
+	"EQ_AMS_6"									= {sort_order = 418;};
+	"EQ_AMS_7"									= {sort_order = 419;};
+	"EQ_AMS_8"									= {sort_order = 420;};
+	"EQ_AMS_9"									= {sort_order = 421;};
+	"EQ_AMS_10"									= {sort_order = 422;};
+	"EQ_AMS_11"									= {sort_order = 423;};
+	"EQ_AMS_12"									= {sort_order = 424;};
+	"EQ_AMS_13"									= {sort_order = 425;};
+	"EQ_AMS_14"									= {sort_order = 426;};
+	"EQ_AMS_15"									= {sort_order = 427;};
+	"EQ_AMS_REMOVAL"							= {sort_order = 428;};
+	"EQ_CLOAKING_DEVICE"						= {sort_order = 429;};
+	"EQ_CLOAKING_DEVICE_REMOVAL"				= {sort_order = 430;};
+	"EQ_AQUATICS_CLOAK"							= {sort_order = 431;};
+	"EQ_MISSILE_ANALYSER"						= {sort_order = 432;};
+	"EQ_MISSILE_ANALYSER_REMOVER"				= {sort_order = 433;};
+	
+//Targeting --------------------------------------------------------------------------------------------------------------------
+	"EQ_SCANNER_SHOW_MISSILE_TARGET"			= {sort_order = 440;};
+	"EQ_SCANNER_SHOW_MISSILE_TARGET_REMOVAL"	= {sort_order = 441;};
+	"EQ_MULTI_TARGET"							= {sort_order = 442;};
+	"EQ_MULTI_TARGET_REMOVAL"					= {sort_order = 443;};
+	"EQ_TARGET_MEMORY"							= {sort_order = 444;};
+	"EQ_TARGET_MEMORY_REMOVAL"					= {sort_order = 445;};
+	"EQ_INTEGRATED_TARGETING_SYSTEM"			= {sort_order = 446;};
+	"EQ_TARGETSELECTOR"							= {sort_order = 447;};
+	"EQ_TARGETSELECTOR_REMOVAL"					= {sort_order = 448;};
+	"EQ_SNIPERLOCK"								= {sort_order = 449;};
+	"EQ_SNIPERLOCK_REMOVAL"						= {sort_order = 450;};
+	"EQ_TARGET_AUTOLOCK"						= {sort_order = 451;};
+	"EQ_REMOVE_TARGET_AUTOLOCK"					= {sort_order = 452;};
+	
+//Shielding --------------------------------------------------------------------------------------------------------------------
+	"EQ_SHIELD_BOOSTER"							= {sort_order = 460;};
+	"EQ_SHIELD_BOOSTER_REMOVAL"					= {sort_order = 461;};
+	"EQ_NAVAL_SHIELD_BOOSTER"					= {sort_order = 462;};
+	"EQ_NAVAL_SHIELD_BOOSTER_REMOVAL"			= {sort_order = 463;};
+	"EQ_FORWARD_SHIELD_CAPACITOR"				= {sort_order = 464;};
+	"EQ_FORWARD_SHIELD_CAPACITOR_REMOVAL"		= {sort_order = 465;};
+	"EQ_AFT_SHIELD_CAPACITOR"					= {sort_order = 466;};
+	"EQ_AFT_SHIELD_CAPACITOR_REMOVAL"			= {sort_order = 467;};
+	"EQ_SHIELD_EQUALIZER"						= {sort_order = 468;};
+	"EQ_SHIELD_EQUALIZER_REMOVAL"				= {sort_order = 469;};
+
+//Energy Units -----------------------------------------------------------------------------------------------------------------
+	"EQ_ENERGY_UNIT"							= {sort_order = 480;};
+	"EQ_ENERGY_UNIT_REMOVAL"					= {sort_order = 481;};
+	"EQ_NAVAL_ENERGY_UNIT"						= {sort_order = 482;};
+	"EQ_NAVAL_ENERGY_UNIT_REMOVAL"				= {sort_order = 483;};
+	"EQ_ENERGY_GRID"							= {sort_order = 484;};
+	"EQ_SELL_ENERGY_GRID"						= {sort_order = 485;};
+	"EQ_NAVAL_GRID"								= {sort_order = 486;};
+	"EQ_SELL_NAVAL_GRID"						= {sort_order = 487;};
+
+//Repair Bots ------------------------------------------------------------------------------------------------------------------
+	"EQ_REPAIRBOTS_CONTROLLER"					= {sort_order = 500;};
+	"EQ_REPAIRBOTS_CYLINDER_1"					= {sort_order = 501;};
+	"EQ_REPAIRBOTS_CYLINDER_2"					= {sort_order = 502;};
+	"EQ_REPAIRBOTS_CYLINDER_3"					= {sort_order = 503;};
+	"EQ_REPAIRBOTS_CYLINDER_4"					= {sort_order = 504;};
+	"EQ_REPAIRBOTS_CYLINDER_5"					= {sort_order = 505;};
+	"EQ_REPAIRBOTS_CYLINDER_6"					= {sort_order = 506;};
+	"EQ_REPAIRBOTS_CYLINDER_7"					= {sort_order = 507;};
+	"EQ_REPAIRBOTS_CYLINDER_8"					= {sort_order = 508;};
+	"EQ_REPAIRBOTS_CYLINDER_9"					= {sort_order = 509;};
+	"EQ_REPAIRBOTS_CYLINDER_10"					= {sort_order = 510;};
+
+//Scanners ---------------------------------------------------------------------------------------------------------------------
+	"EQ_POLICE_SCANNER_UPGRADE"					= {sort_order = 520;};
+	"EQ_POLICE_SCANNER_UPGRADE_REMOVAL"			= {sort_order = 521;};
+	"EQ_WARRANT_SCANNER"						= {sort_order = 522;};
+	"EQ_WARRANT_SCANNER_PASSIVE"				= {sort_order = 523;};
+	"EQ_WARRANT_SCANNER_POLICE"					= {sort_order = 524;};
+	"EQ_WARRANT_SCANNER_POLICE_PASSIVE"			= {sort_order = 525;};
+	"EQ_WARRANT_SCANNER_REMOVAL"				= {sort_order = 526;};
+	"EQ_NS_MINING_SCANNER_UPGRADE"				= {sort_order = 527;};
+	"EQ_NS_MINING_SCANNER_UPGRADE_REMOVAL"		= {sort_order = 528;};
+	"EQ_NS_SCANNER_SCAVENGER_HACK"				= {sort_order = 529;};
+	"EQ_NS_UNDO_SCANNER_SCAVENGER_HACK"			= {sort_order = 530;};
+
+//M.F.D.s	----------------------------------------------------------------------------------------------------------------------
+	"EQ_BROADCASTCOMMSMFD"						= {sort_order = 540;};
+	"EQ_BROADCASTCOMMSMFD_REMOVAL"				= {sort_order = 541;};
+	"EQ_COMBATMFD"								= {sort_order = 542;};
+	"EQ_COMMSLOGMFD"							= {sort_order = 543;};
+	"EQ_COMMSLOGMFD_REMOVAL"					= {sort_order = 544;};
+	"EQ_COMMSLOGMFD_PASSIVE"					= {sort_order = 545;};
+	"EQ_COMMSLOGMFD_PASSIVE_REMOVAL"			= {sort_order = 546;};
+	"EQ_DAMAGE_REPORT_MFD"						= {sort_order = 547;};
+	"EQ_DAMAGE_REPORT_MFD_REMOVAL"				= {sort_order = 548;};
+	"EQ_DAMAGE_REPORT_MFD_PASSIVE"				= {sort_order = 549;};
+	"EQ_DAMAGE_REPORT_MFD_PASSIVE_REMOVAL"		= {sort_order = 550;};
+	"EQ_MANIFEST_MFD"							= {sort_order = 560;};
+	"EQ_MARKET_INQUIRER_MFD"					= {sort_order = 561;};
+	"EQ_MARKET_INQUIRER_MFD_REMOVE"				= {sort_order = 562;};
+	"EQ_NAVIGATION_MFD"							= {sort_order = 563;};
+	"EQ_TROPHY_MFD"								= {sort_order = 564;};
+	"EQ_TROPHY_MFD_REMOVE"						= {sort_order = 565;};
+
+//Fuel Tanks -------------------------------------------------------------------------------------------------------------------
+	"EQ_RESERVE_TANK"							= {sort_order = 570;};
+	"EQ_3LY_CHARGE"								= {sort_order = 571;};
+	"EQ_AUX_TANK"								= {sort_order = 572;};
+	"EQ_1LY_CHARGE"								= {sort_order = 573;};
+	"EQ_UPGRADE_TANK"							= {sort_order = 574;};
+
+//Licenses ---------------------------------------------------------------------------------------------------------------------
+	"EQ_ESCORTCONTRACTS"						= {sort_order = 580;};
+	"EQ_HUNTER_LICENCE"							= {sort_order = 581;};
+	"EQ_HUNTER_LICENCE_RENEWAL"					= {sort_order = 582;};
+	
+//Hacker -----------------------------------------------------------------------------------------------------------------------
+	"EQ_MULTIPASS"								= {sort_order = 583;};
+	"EQ_MULTIPASSED_ID"							= {sort_order = 584;};
+	"EQ_SDC_HACK_CHIP"							= {sort_order = 585;};
+	
+//Mission Specific -------------------------------------------------------------------------------------------------------------
+	
+	//Galcop Missions
+	"EQ_GCM_COMMS_RELAY_SWITCH"					= {sort_order = 600;};
+	"EQ_GCM_COMMS_RELAY_SWITCH_RECHARGE"		= {sort_order = 601;};
+	"EQ_GCM_COMMS_RELAY_SWITCH_REMOVE"			= {sort_order = 602;};
+	"EQ_GCM_CARGO_STOPPER"						= {sort_order = 603;};
+	"EQ_GCM_CARGO_STOPPER_REMOVE"				= {sort_order = 604;};
+	"EQ_GCM_EJECTION_DAMPER"					= {sort_order = 605;};
+	"EQ_GCM_EJECTION_DAMPER_REMOVE"				= {sort_order = 606;};
+	"EQ_GCM_STATIONKILLER_MISSILE"				= {sort_order = 607;};
+	"EQ_GCM_RANGE_FINDER_MFD"					= {sort_order = 608;};
+	"EQ_GCM_RANGE_FINDER_REMOVAL"				= {sort_order = 609;};
+	"EQ_GCM_RANGE_FINDER_EXTENDER"				= {sort_order = 610;};
+	"EQ_GCM_RANGE_FINDER_EXT_REMOVAL"			= {sort_order = 611;};
+	
+	//Iron Raven
+	"EQ_IR_FUEL_SAMPLE_MINE"					= {sort_order = 620;};
+	"EQ_IR_SABOTAGE_MINE"						= {sort_order = 621;};
+	
+	//Rescue Stations 
+	"EQ_RRS_SOLAR_MINE"							= {sort_order = 630;};
+	"EQ_RRS_FUEL"								= {sort_order = 631;};
+	"EQ_RRS_SCOOPS"								= {sort_order = 632;};
+	"EQ_RRS_DOCK_COMP"							= {sort_order = 633;};
+	"EQ_RRS_HEAT_SHIELD"						= {sort_order = 634;};
+	"EQ_RRS_ASC"								= {sort_order = 635;};
+	"EQ_RRS_ANA"								= {sort_order = 636;};
+	"EQ_RRS_FLIGHTFORM"							= {sort_order = 637;};
+	"EQ_RRS_FLIGHTFORM_DISCOUNT"				= {sort_order = 638;};
+	"EQ_RRS_ESCORT_TARGETING_SYSTEM"			= {sort_order = 639;};
+	"EQ_RRS_ESCORT_TARGETING_SYSTEM_WAYSTATION"	= {sort_order = 640;};
+	"EQ_RRS_ESCORT_TARGETING_SYSTEM_DISCOUNT"	= {sort_order = 641;};
+	"EQ_RRS_SCANNER_SHOW_MISSILE_TARGET"		= {sort_order = 642;};
+	"EQ_RRS_SCANNER_SHOW_MISSILE_TARGET_DISCOUNT"	= {sort_order = 643;};
+	"EQ_RRS_SERVICE"							= {sort_order = 644;};
+	"EQ_RRS_FULLEQUIP"							= {sort_order = 645;};
+	
+	//T.C.A.T.
+	"EQ_TCAT_JAMMER_MINE"						= {sort_order = 660;};
+	"EQ_TCAT_EU_UPGRADE"						= {sort_order = 661;};
+	"EQ_TCAT_EU_FIXGRADE"						= {sort_order = 662;};
+	"EQ_TCAT_NEU_REPAIR"						= {sort_order = 663;};
+	"EQ_TCAT_ECM_JAMMER"						= {sort_order = 664;};
+	"EQ_REMOVE_TCAT_ECM_JAMMER"					= {sort_order = 665;};
+	"EQ_TCAT_FREE_MINE"							= {sort_order = 666;};
+	"EQ_TCAT_FREE_MISSILE"						= {sort_order = 667;};
+	"EQ_TCAT_FREE_JAMMER_MINE"					= {sort_order = 668;};
+	"EQ_TCAT_CLEARPYLONS"						= {sort_order = 669;};
+	"EQ_TCAT_DUMMY_MINE"						= {sort_order = 670;};
+	"EQ_TCAT_DUMMY_MISSILE"						= {sort_order = 671;};
+	"EQ_TCAT_DUMMY_NEU"							= {sort_order = 672;};
+	"EQ_TCAT_DUMMY_SHIELDS"						= {sort_order = 673;};
+		
+	//Hired Guns
+	"EQ_HIREDGUN_HIGH"							= {sort_order = 680;};
+	"EQ_HIREDGUN_MID"							= {sort_order = 681;};
+	"EQ_HIREDGUN_LOW"							= {sort_order = 682;};
+			
+	//Tionisla Reporter
+	"EQ_EREHWON_PHOTOCAMERA"					= {sort_order = 690;};
+	
+	//U.P.S. Courier
+	"EQ_CRIPPLED_CLOAKING"						= {sort_order = 700;};
+	"EQ_UPS_POLICE_SCANNER"						= {sort_order = 701;};
+	"EQ_UPS_UNIVERSAL_SCANNER"					= {sort_order = 702;};
+	"EQ_UPS_UNIVERSAL_SCANNER_REMOVER"			= {sort_order = 703;};
+	"EQ_UPS_IDCLEANER"							= {sort_order = 704;};
+	"EQ_UPS_PRIVATE_ESCORT"						= {sort_order = 705;};
+	
+//Salvaged ---------------------------------------------------------------------------------------------------------------------
+	"EQ_ECM_SALVAGED"							= {sort_order = 715;};
+	"EQ_FUEL_SCOOPS_SALVAGED"					= {sort_order = 716;};
+	"EQ_ESCAPE_POD_SALVAGED"					= {sort_order = 717;};
+	"EQ_ENERGY_BOMB_SALVAGED"					= {sort_order = 718;};
+	"EQ_ENERGY_UNIT_SALVAGED"					= {sort_order = 719;};
+	"EQ_NAVAL_ENERGY_UNIT_SALVAGED"				= {sort_order = 720;};
+	"EQ_DOCK_COMP_SALVAGED"						= {sort_order = 721;};
+	"EQ_GAL_DRIVE_SALVAGED"						= {sort_order = 722;};
+	"EQ_FUEL_INJECTION_SALVAGED"				= {sort_order = 723;};
+	"EQ_SCANNER_SHOW_MISSILE_TARGET_SALVAGED"	= {sort_order = 724;};
+	"EQ_MULTI_TARGET_SALVAGED"					= {sort_order = 725;};
+	"EQ_ADVANCED_COMPASS_SALVAGED"				= {sort_order = 726;};
+	"EQ_ADVANCED_NAVIGATIONAL_ARRAY_SALVAGED"	= {sort_order = 727;};
+	"EQ_TARGET_MEMORY_SALVAGED"					= {sort_order = 728;};
+	"EQ_SHIELD_BOOSTER_SALVAGED"				= {sort_order = 729;};
+	"EQ_NAVAL_SHIELD_BOOSTER_SALVAGED"			= {sort_order = 730;};
+	"EQ_HEAT_SHIELD_SALVAGED"					= {sort_order = 731;};
+	"EQ_WORMHOLE_SCANNER_SALVAGED"				= {sort_order = 732;};
+}
