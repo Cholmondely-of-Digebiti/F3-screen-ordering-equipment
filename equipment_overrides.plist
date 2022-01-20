@@ -1,7 +1,25 @@
 {
 // equipment-overrides.plist for F3 Screen Sorting -- Nite Owl v1.0
 // General ---------------------------------------------------------------------------------------------------------------------
-	"EQ_FUEL"									= {sort_order = 100;};
+	"EQ_FUEL"									= {sort_order = 10000;};
+	
+	"EQ_FUEL_ALT1"
+	"EQ_FUEL_ALT2"
+	"EQ_FUEL_ALT3"
+	"EQ_FUEL_ALT4"
+	"EQ_FUEL_ALT5"
+	"EQ_FUEL_ALT6"
+	"EQ_HOLY_FUEL "
+	"EQ_IR_FUEL_SAMPLE_MINE"
+	"EQ_PIRATE_FUEL" 
+	"EQ_LQG_CHARGE "
+	"EQ_DUPLEX_FUEL_TANK_REFILL "
+	"EQ_1LY_CHARGE "
+	"EQ_3LY_CHARGE "
+	"EQ_RRS_FUEL"									= {sort_order = 10000;};
+
+	
+	
 	"EQ_CARGO_BAY"								= {sort_order = 101;};
 	"EQ_CARGO_BAY_REMOVAL"						= {sort_order = 102;};
 	"EQ_DOCK_COMP"								= {sort_order = 103;};
