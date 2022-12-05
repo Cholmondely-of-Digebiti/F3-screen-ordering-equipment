@@ -33,3 +33,8 @@ ________________________________________________________________________________
  Maintenance
 
  Various (more than one of the above)
+ 
+ 
+ Report: Dec 2022
+ 
+ Finding out enough about all the equipment to categorise them properly has been ruining my gaming, and led to a hiatus.
